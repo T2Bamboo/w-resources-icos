@@ -11,3 +11,4 @@ wheels/
 .env
 tests/raw
 log_files
+.DS_Store
