@@ -13,7 +13,6 @@ def convert_all_to_png(input_folder, size=None):
 
         try:
             with Image.open(input_path) as img:
-                # Resize nếu có yêu cầu
                 if size:
                     img = img.resize(size, Image.LANCZOS)
 
