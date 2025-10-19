@@ -22,12 +22,12 @@ def convert_all_to_png(input_folder, size=None):
                 img.save(output_path, "PNG")
                 print(f"✅ {file_name} → {output_path} (size={img.size})")
         except Exception as e:
-            print(f"⚠️ Không thể xử lý {file_name}: {e}")
+            print(f"⚠️ {file_name}: {e}")
 
     print(f"\n🎉 done: {output_folder}")
 
 
 if __name__ == "__main__":
     # convert_all_to_png("generative", size=(32, 32)) 
-    convert_all_to_png("social", size=(32, 32)) 
+    convert_all_to_png("w", size=(32, 32)) 
 
