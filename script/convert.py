@@ -28,6 +28,5 @@ def convert_all_to_png(input_folder, size=None):
 
 
 if __name__ == "__main__":
-    # convert_all_to_png("generative", size=(32, 32)) 
-    convert_all_to_png("w", size=(32, 32)) 
+    convert_all_to_png("raw", size=(32, 32)) 
 
