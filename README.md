@@ -3,6 +3,6 @@
 
 ### Expose path
 
-- https://raw.githubusercontent.com/T2Bamboo/w-resources-icos/main/icos/{icon}.png
+- https://cdn.jsdelivr.net/gh/T2Bamboo/w-resources-icos@main/icos/{icon}.png
 
 
